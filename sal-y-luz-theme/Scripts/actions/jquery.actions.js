@@ -62,7 +62,6 @@ $(function () {
 
 	playMed();
 
-
 });
 
 function countNumbers() {
@@ -102,10 +101,8 @@ function explorer() {
 }
 
 function burguerMenu() {
-	if (detectmob()) {
-		$burguer.on('click', function(){showMenu()});
-		$menLink.on('click', function(){showMenu()});
-	}
+	$burguer.on('click', function(){showMenu()});
+	$menLink.on('click', function(){showMenu()});
 }
 
 function showMenu() {

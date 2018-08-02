@@ -1,45 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="shortcut icon" href="<?php echo get_template_directory_uri();?>/Content/img/icons/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri();?>/Content/img/icons/apple-touch-icon.png" />
+	<link rel="apple-touch-icon" sizes="57x57" href="<?php echo get_template_directory_uri();?>/Content/img/icons/apple-touch-icon-57x57.png" />
+	<link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri();?>/Content/img/icons/apple-touch-icon-72x72.png" />
+	<link rel="apple-touch-icon" sizes="76x76" href="<?php echo get_template_directory_uri();?>/Content/img/icons/apple-touch-icon-76x76.png" />
+	<link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri();?>/Content/img/icons/apple-touch-icon-114x114.png" />
+	<link rel="apple-touch-icon" sizes="120x120" href="<?php echo get_template_directory_uri();?>/Content/img/icons/apple-touch-icon-120x120.png" />
+	<link rel="apple-touch-icon" sizes="144x144" href="<?php echo get_template_directory_uri();?>/Content/img/icons/apple-touch-icon-144x144.png" />
+	<link rel="apple-touch-icon" sizes="152x152" href="<?php echo get_template_directory_uri();?>/Content/img/icons/apple-touch-icon-152x152.png" />
+	<link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri();?>/Content/img/icons/apple-touch-icon-180x180.png" />
 
-		<header class="ap-header">
-			<div class="ap-panel cf">
-				<a class="ap-btn-menu">
-					<span></span>
-					<span></span>
-					<span></span>
-					<span></span>
-				</a>
+	<title>Sal y Luz – La transformación está en mi</title>
 
-				<h1 class="ap-tt-brand">
-					<a href="#" class="ap-tt-brand-link">
-						<img src="<?php bloginfo('stylesheet_directory'); ?>/Content/img/img-tt.png" alt="">
-						<span class="ap-tt-tt">
-							Sal y Luz La transformación comienza en mi.
-						</span>
-					</a>
-				</h1>
+	<!-- Css -->
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/Content/css/lidere-master.css">
 
-				<nav class="ap-header-navigation">
-					<div class="ap-nav ap-nav--social">
-						<a href="#" class="ap-btn-sc icon-li-instagram"></a>
-						<a href="#" class="ap-btn-sc icon-li-dribbble"></a>
-						<a href="#" class="ap-btn-sc icon-li-twitter"></a>
-					</div>
-					<div class="ap-nav ap-nav--left">
-						<ul class="cf" id="ap-nav">
-							<li class="ap-nav-item ap-nav-item--active">
-								<a href="#ap-lid--top" class="ap-nav-link">Inicio</a>
-							</li>
-							<li class="ap-nav-item">
-								<a href="#ap-lid--facilitadores" class="ap-nav-link">Facilitadores</a>
-							</li>
-							<li class="ap-nav-item">
-								<a href="#ap-lid--testimonios" class="ap-nav-link">Historias</a>
-							</li>
-							<li class="ap-nav-item">
-								<a href="" class="ap-nav-link ap-nav-link--no-link">Registro
-								/ entrar</a>
-							</li>
-						</ul>
-					</div>
-				</nav>
-			</div>
-		</header>
+</head>
+<body class="ap" ontouchstart="">
+	<main class="ap-main ap-loading">
